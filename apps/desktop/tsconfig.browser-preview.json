@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "include": ["browser-preview/**/*.ts"],
+  "compilerOptions": {
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "types": ["node", "vite/client"],
+    "incremental": false
+  }
+}
